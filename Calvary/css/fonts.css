@@ -1,0 +1,19 @@
+@font-face{
+    font-family: Abel;
+    src: url('../fonts/Abel/Abel-Regular.ttf');
+}
+
+@font-face{
+    font-family: Poppins;
+    src: url('../fonts/Poppins/Poppins-Black.ttf');
+}
+
+@font-face{
+    font-family: Livvic;
+    src: url('../fonts/Livvic/Livvic-Regular.ttf');
+}
+
+@font-face{
+    font-family: OpenSans;
+    src: url('../fonts/Open_Sans/OpenSans-Regular.ttf');
+}
