@@ -274,7 +274,7 @@ section .container .owl-nav{
 /*-----------Site Contents------------*/
 main .site-content{
     display: grid;
-    grid-template-columns: 80% 20%;
+    grid-template-columns: 70% 30%;
 }
 
 main .post-content{
@@ -348,9 +348,105 @@ main .post-content .post-title a{
 /*-----x------Site contents-----x-------*/
 
 
+/*------------Sidebar-------------*/
+.site-content > .sidebar .category-list{
+    font-family: var(--Livvic);
+}
 
-/*-----------Main Content------------*/
+.site-content > .sidebar .category-list .list-items{
+    background: var(--sky);
+    padding: .4rem 1rem;
+    margin: .8rem 0;
+    border-radius: 3rem;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
 
+.site-content > .sidebar .category-list .list-items a{
+    color: black;
+}
+
+
+.side-content .sidebar .popular-post .post-content{
+    padding: 1rem 0;
+}
+
+.site-content .sidebar .popular-post h2{
+    padding-top: 8rem;
+}
+
+.site-content .sidebar .popular-post .post-info{
+    padding: .4rem .1rem !important;
+    bottom: 0rem !important;
+    left: 1rem !important;
+    border-radius: 0rem !important;
+    background: white !important;
+}
+
+.site-content .sidebar .popular-post .post-title a{
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter{
+    padding-top: 10rem;
+}
+
+.site-content .sidebar .newsletter .form-element{
+    padding: 0.5rem 2rem;
+}
+
+.site-content .sidebar .newsletter .input-element{
+    width: 80%;
+    height: 1.9rem;
+    padding: .3rem .5rem;
+    font-family: var(--OpenSans);
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter .form-btn{
+    border-radius: 0;
+    padding: .8rem 32%;
+    margin: 1rem 0;
+    background: var(--sky);
+}
+
+.site-content .sidebar .popular-tags{
+    padding: 5rem 0;
+}
+
+.site-content .sidebar .popular-tags .tags .tag{
+    background: var(--sky);
+    padding: .4rem 1rem;
+    border-radius: 3rem;
+    margin: .4rem .6rem;
+}
+/*-----x------Sidebar-----x-------*/
+
+
+/*-------x----Main Content-----x-------*/
+
+/* ----------------footer------------------ */
+footer.footer{
+    height: 100%;
+    background: var(--bg-color);
+    position: relative;
+}
+
+footer.footer .container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+
+}
+
+footer.footer .container > div{
+    flex-grow: 1;
+    flex-basis: 0;
+    padding: 3rem .9rem;
+}
+
+
+/* ----------x------footer-------x----------- */
 
 
 /* viewport less than or equal to 750px */
