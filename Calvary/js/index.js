@@ -1,8 +1,11 @@
 const responsive =  {
+    0:{
+        items:1
+    },
     320:{
         items:1
     },
-    560:{
+    520:{
         items: 2
     },
     960:{
@@ -23,7 +26,7 @@ $toggleCollapse.click(function(){
 //Owl Carousel
 $('.owl-carousel').owlCarousel({
     loop:true,
-    autoplay:true,
+    autoplay:false,
     autoplayTimeout:3000,
     dots:false,
     nav:true,
@@ -38,6 +41,9 @@ $('.move-up span').click(function(){
     
     }, 1000);
 })
+
+// Animation On Scroll
+AOS.init();
 
 });
 
