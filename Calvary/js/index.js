@@ -19,5 +19,13 @@ $('.owl-carousel').owlCarousel({
     navText:[$('.owl-navigation .owl-nav-prev'), $('.owl-navigation .owl-nav-next')]
 });
 
+//scrol to top function
+$('.move-up span').click(function(){
+    $('html,body').animate({
+        scrollTop:0
+    
+    }, 1000);
+})
+
 });
 
